@@ -1,23 +1,23 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fajar4561/Kernel_Asus_SDM660
+KERNEL_REPO=https://github.com/celoxntc/Xiaomi_Kernel_OpenSource
 
 # Kernel Branch
-KERNEL_BRANCH=R3
+KERNEL_BRANCH=cepheus-q-oss
 
 # The name of the device for which the kernel is built
-MODEL="Asus Zenfone Max Pro M1"
+MODEL="Mi9"
 
 # The codename of the device
-DEVICE="X00TD"
+DEVICE="cepheus"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=X00TD_defconfig
+DEFCONFIG=cepheus_user_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="ASUSTek Computer Inc."
+MANUFACTURERINFO="XIAOMI"
 
 # tambahkan changelog di anykernel
 CHANGELOGS=n
