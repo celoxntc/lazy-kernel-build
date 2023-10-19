@@ -23,7 +23,7 @@ MANUFACTURERINFO="XIAOMI"
 CHANGELOGS=n
 
 # opsi spectrum "y" atau "n"
-SPECTRUM=y
+SPECTRUM=n
 
 # Kernel Variant
 
