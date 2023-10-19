@@ -1,7 +1,8 @@
-name: Lazy Kernel Builder
+name: Kernel Builder
 
 on:
-  push:
+
+workflow_dispatch:
 
 jobs:
   super-job:
